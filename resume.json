@@ -1,0 +1,269 @@
+{
+  "name": "KRISHNAM RAJU KAMMILI",
+  "contact": {
+    "location": "Plano, TX, 75075",
+    "email": "kkrajus777@gmail.com",
+    "phone": "469-569-6257",
+    "linkedin": "www.linkedin.com/in/krishnamraju-kammili",
+    "website": "http://www.bhimavarambiryanis.com/"
+  },
+  "professionalSummary": "Senior Full Stack Developer with 8+ years of experience building scalable web applications and cloud-native platforms. Known for shipping 70+ product features annually and resolving mission-critical production issues, recognized with Lumen's 2022 Employee of the Year and Fidelity's Q2 2024 Most Valuable Associate awards. Passionate about crafting robust frontend/backend solutions, streamlining DevOps workflows, and leading cross-functional teams.",
+  "technicalSkills": {
+    "Frontend": [
+      "React (Redux, Thunk, Saga, Toolkit, Router)",
+      "Angular (NgRx, SignalStore)",
+      "Vue (Vuex)",
+      "Nx Monorepo",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3"
+    ],
+    "Backend": [
+      "Node.js (Express, Nest)",
+      "Spring Boot",
+      "MongoDB",
+      "MySQL",
+      "PostgreSQL",
+      "REST APIs",
+      "GraphQL",
+      "JWT",
+      "Swagger"
+    ],
+    "Testing": [
+      "Cypress",
+      "Playwright",
+      "Jest",
+      "Mocha",
+      "Chai",
+      "Enzyme"
+    ],
+    "DevOps": [
+      "AWS (EC2, Lambda, Beanstalk, Amplify, S3, RDS, DynamoDB, VPC, Route 53, CloudFormation, CloudWatch)",
+      "Docker",
+      "Jenkins"
+    ],
+    "Editors": [
+      "Vim",
+      "VSCode",
+      "Eclipse"
+    ],
+    "AI/Maps": [
+      "Microsoft Copilot",
+      "LangChain",
+      "AI Agents",
+      "Leaflet",
+      "Google Maps API"
+    ],
+    "Soft Skills": [
+      "Agile",
+      "TDD",
+      "CI/CD",
+      "Communication",
+      "Team Mentoring"
+    ]
+  },
+  "workExperience": [
+    {
+      "role": "Sr. Full Stack Developer",
+      "company": "Fidelity",
+      "location": "Durham, NC",
+      "startDate": "May 2023",
+      "endDate": "Present",
+      "projects": [
+        {
+          "name": "Plan Sponsor WebStation (PSW) Modernization",
+          "description": "Led the modernization of the Plan Sponsor WebStation (PSW), a platform for managing pension and defined benefit plans.",
+          "keyAchievements": [
+            "Improved data visualization, enabling real-time secure access",
+            "Streamlined the cloud migration of legacy systems",
+            "Introduced user-centric dashboards and form validations",
+            "Built the Edithub frontend using Angular 18 with scalable architecture and NgRx Signal Store",
+            "Streamlined monorepo development using Nx and implemented backend-driven dynamic forms",
+            "Used RxJS for async data streams and Angular Dynamic Forms",
+            "Simulated APIs using WireMock to enable parallel development",
+            "Maintained 95%+ test coverage (Jest) and integrated Cypress into CI/CD workflows",
+            "Hosted application on AWS S3 with automated release validation"
+          ],
+          "techStack": [
+            "Angular 18",
+            "RxJS",
+            "NgRx Signal Store",
+            "Nx Monorepo",
+            "Cypress",
+            "Jest",
+            "Jenkins",
+            "AWS S3",
+            "Jira",
+            "Figma"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Sr. Full Stack Developer",
+      "company": "Lumen",
+      "location": "Littleton, CO",
+      "startDate": "Oct 2021",
+      "endDate": "May 2023",
+      "projects": [
+        {
+          "name": "Dycon - Global Self-Service Cloud Connectivity Portal",
+          "description": "Led the development of Dycon, a global self-service cloud connectivity portal supporting AWS, Azure, and GCP integrations.",
+          "keyAchievements": [
+            "Served 10,000+ customers and reduced provisioning time by 30%",
+            "Built dynamic SPAs using React, Angular, and Vue",
+            "Integrated AWS Direct Connect and automated infrastructure",
+            "Developed secure, JWT-based APIs with Nest.js and Express.js",
+            "Designed a MySQL-based billing system using database triggers",
+            "Enabled CI/CD automation with Jenkins, Docker, and AWS CodePipeline",
+            "Achieved 99.9% uptime with IAM access control and CloudWatch dashboards"
+          ],
+          "techStack": [
+            "React.js",
+            "Angular",
+            "Vue.js",
+            "Next.js",
+            "Nuxt.js",
+            "Node.js",
+            "Nest.js",
+            "MongoDB",
+            "AWS (EC2, S3, RDS, Lambda)",
+            "Docker",
+            "Jenkins",
+            "Cypress",
+            "Mocha",
+            "Chai"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Verizon",
+      "location": "Irving, TX",
+      "startDate": "Dec 2019",
+      "endDate": "Sep 2020",
+      "projects": [
+        {
+          "name": "Internal Bandwidth and Monitoring Platforms",
+          "description": "Developed internal platforms for bandwidth allocation, infrastructure tracking, and real-time monitoring.",
+          "keyAchievements": [
+            "Visualized 10K+ network assets using Leaflet and Google Maps",
+            "Contributed to the Verizon Messaging Bus Portal and VSON monitoring system",
+            "Developed a React-based CRM that improved lead tracking accuracy by 30%",
+            "Reduced onboarding time by 40% with guided tours and interactive modals",
+            "Improved API efficiency with Node.js and monitoring via SonarQube",
+            "Automated deployments using shell scripts and version control"
+          ],
+          "techStack": [
+            "React.js",
+            "Node.js",
+            "Express.js",
+            "TypeScript",
+            "MongoDB",
+            "Leaflet",
+            "MySQL",
+            "Redux",
+            "JWT",
+            "AWS",
+            "GitHub",
+            "GitLab"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Frontend Developer",
+      "company": "Pluto TV",
+      "location": "Los Angeles, CA",
+      "startDate": "May 2018",
+      "endDate": "Dec 2019",
+      "projects": [
+        {
+          "name": "Cross-Platform UIs for Streaming",
+          "description": "Engineered responsive UIs for 80M+ users across smart TVs, mobile, and web.",
+          "keyAchievements": [
+            "Reduced load time by 20% with performance tuning",
+            "Enabled real-time data sync for channels and content",
+            "Developed dynamic guides, watchlists, and i18n",
+            "Integrated accessibility features (WCAG-compliant)",
+            "Improved performance via memoization and Redux-Saga optimization",
+            "Embedded analytics for user behavior tracking"
+          ],
+          "techStack": [
+            "Vue.js",
+            "React.js",
+            "Nuxt.js",
+            "SSR",
+            "i18n",
+            "TypeScript",
+            "HTML5",
+            "CSS3"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Capital One",
+      "location": "Plano, TX",
+      "startDate": "Dec 2017",
+      "endDate": "May 2018",
+      "projects": [
+        {
+          "name": "One-Doc Verification Tool",
+          "description": "Built and deployed a real-time document verification tool for customer authentication.",
+          "keyAchievements": [
+            "Reduced unauthorized access by 35%",
+            "Integrated multi-factor authentication",
+            "Enabled experimentation with feature toggles",
+            "Streamlined CI/CD and embedded test automation",
+            "Ensured stability through Splunk monitoring"
+          ],
+          "techStack": [
+            "Node.js",
+            "React.js",
+            "Redux",
+            "AWS",
+            "Splunk",
+            "Gherkin",
+            "Cypress",
+            "Jenkins"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": {
+    "degree": "MS in Computer Science",
+    "university": "University of Illinois at Springfield, IL",
+    "gpa": "3.72",
+    "year": "2016"
+  },
+  "certifications": [
+    "AWS Certified Developer Associate – 2024"
+  ],
+  "awards": [
+    "Lumen's 2022 Employee of the Year",
+    "Fidelity's Q2 2024 Most Valuable Associate"
+  ],
+  "projects": [
+    {
+      "name": "Weather App 2022",
+      "description": "React JS-based weather application using OpenWeather API",
+      "link": "https://kkammili-weather-app/"
+    },
+    {
+      "name": "Restaurant Website 2024",
+      "description": "Next JS SSR website for Bhimavaram Biryanis with Redux-Persist",
+      "link": "http://www.bhimavarambiryanis.com/"
+    }
+  ],
+  "github": "https://github.com/kkammili",
+  "leadership": [
+    "Led cross-functional teams of 6 developers",
+    "Championed modern dev tools, tech adoption, and continuous delivery",
+    "Mentored junior engineers and facilitated knowledge sharing"
+  ]
+}
