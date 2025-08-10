@@ -13,6 +13,12 @@ const techIcons = [
     // Next.js – devicon version that actually shows on white background
     { name: "Next.js", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
 
+    //Backend
+    { name: "Springboot", url: "/java-springboot.png" },
+    { name: "Django", url: "/django-logo.png" },
+    { name: "Express", url: "/node-express-logo.png" },
+
+
     // Cloud/Infra
     { name: "AWS", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
     { name: "Docker", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
@@ -27,8 +33,8 @@ const techIcons = [
     { name: "Redux", url: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
 
     // AI / Agents – try local logos first, then fall back
-    { name: "LangChain", url: "/logos/langchain.svg" },
-    { name: "n8n", url: "/logos/n8n.svg" },
+    { name: "LangChain", url: "/langchain-logo.png" },
+    { name: "n8n", url: "/n8n-logo.png" },
 ];
 
 function Bubble({ name, url, i }) {

@@ -15,9 +15,9 @@ function Pill({ children }) {
 export default function CoreSkills() {
     const y = useParallax(40);
     const buckets = [
-        { title: "Frontend", items: resume.technicalSkills.Frontend.slice(0, 4) },
-        { title: "Backend", items: resume.technicalSkills.Backend.slice(0, 4) },
-        { title: "DevOps & Testing", items: [...resume.technicalSkills.DevOps.slice(0, 2), ...resume.technicalSkills.Testing.slice(0, 2)] },
+        { title: "Frontend", items: resume.technicalSkills.Frontend },
+        { title: "Backend", items: resume.technicalSkills.Backend },
+        { title: "DevOps & Testing", items: [...resume.technicalSkills.DevOps, ...resume.technicalSkills.Testing] },
     ];
     return (
         <section className="mx-auto max-w-7xl px-4 mt-12">
