@@ -36,7 +36,7 @@ export default function Nav() {
                     </Button>
                     <Button className="rounded-full bg-neutral-900 text-white hover:bg-black dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100" asChild>
                         <a
-                            href="https://docs.google.com/document/d/1K5vSy-bopRhGfPs1HDc47qKmaHMf__WO7iWTPIOHxPU/edit?tab=t.0"
+                            href="https://docs.google.com/document/d/1sh9-BaJOdu3IHI4luejthKqNPtpmID2mEwfx_DedCHc/edit?tab=t.0"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="download-btn"

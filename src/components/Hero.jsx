@@ -41,7 +41,7 @@ export default function Hero() {
                         </div>
 
                         <h1 className="mt-2 text-[clamp(2rem,6vw,3.2rem)] leading-[1.05] font-extrabold text-neutral-900 dark:text-white">
-                            <span className="text-blue-600 dark:text-blue-400">KRISHNAM</span> RAJU KAMMILI
+                            <span className="text-blue-600 dark:text-blue-400">KUMAR</span> VARMA PAKALAPATI
                         </h1>
 
                         <p className="mt-3 text-[clamp(0.95rem,1.4vw,1.05rem)] leading-relaxed text-neutral-700 dark:text-neutral-300 max-w-prose">
@@ -60,9 +60,6 @@ export default function Hero() {
                             </Button>
                             <Button variant="outline" className="rounded-full h-9" asChild>
                                 <a href={resume.github} target="_blank" rel="noreferrer"><Github className="mr-2 h-4 w-4" />GitHub</a>
-                            </Button>
-                            <Button variant="outline" className="rounded-full h-9" asChild>
-                                <a href={resume.contact.website} target="_blank" rel="noreferrer"><Globe className="mr-2 h-4 w-4" />Website</a>
                             </Button>
                         </div>
 

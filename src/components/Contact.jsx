@@ -20,7 +20,6 @@ export default function Contact() {
                 <Button variant="outline" className="rounded-full" asChild><a href={`tel:${resume.contact.phone}`}><Phone className="h-4 w-4 mr-2" />Call</a></Button>
                 <Button variant="outline" className="rounded-full" asChild><a href={`https://${resume.contact.linkedin.replace(/^https?:\/\//, "")}`} target="_blank" rel="noreferrer"><Linkedin className="h-4 w-4 mr-2" />LinkedIn</a></Button>
                 <Button variant="outline" className="rounded-full" asChild><a href={resume.github} target="_blank" rel="noreferrer"><Github className="h-4 w-4 mr-2" />GitHub</a></Button>
-                <Button variant="outline" className="rounded-full" asChild><a href={resume.contact.website} target="_blank" rel="noreferrer"><Globe className="h-4 w-4 mr-2" />Website</a></Button>
                 <Button className="rounded-full bg-neutral-900 text-white hover:bg-black dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100" onClick={async () => { await navigator.clipboard.writeText(resume.contact.email); toast("Email copied"); }}>Copy Email</Button>
             </motion.div>
         </section>

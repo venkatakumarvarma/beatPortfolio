@@ -18,7 +18,6 @@ export default function CoreSkills() {
         { title: "Frontend", items: resume.technicalSkills.Frontend },
         { title: "Backend", items: resume.technicalSkills.Backend },
         { title: "DevOps & Testing", items: [...resume.technicalSkills.DevOps, ...resume.technicalSkills.Testing] },
-        { title: "AI/Maps", items: [...resume.technicalSkills["AI/Maps"]] },
     ];
     return (
         <section className="mx-auto max-w-7xl px-4 mt-12">
