@@ -1,6 +1,3 @@
-export const HERO_IMG =
-  "https://images.unsplash.com/photo-1611162618071-b39a2ec1f511?q=80&w=1400&auto=format&fit=crop";
-
 export const resume = {
   name: "KRISHNAM RAJU KAMMILI",
   contact: {
@@ -32,6 +29,7 @@ export const resume = {
     Backend: [
       "Node.js (Express, Nest)",
       "Spring Boot",
+      "Djanog",
       "MongoDB",
       "MySQL",
       "PostgreSQL",
@@ -258,15 +256,21 @@ export const resume = {
   ],
   projects: [
     {
-      name: "Weather App 2022",
-      description: "React JS-based weather application using OpenWeather API",
-      link: "https://kkammili-weather-app/",
-    },
-    {
       name: "Restaurant Website 2024",
       description:
         "Next JS SSR website for Bhimavaram Biryanis with Redux-Persist",
       link: "http://www.bhimavarambiryanis.com/",
+    },
+    {
+      name: "My Portfolio Website",
+      description:
+        "React JS-based portfolio built using latest web component library Shad-cn",
+      link: "http://www.kkammilis.com",
+    },
+    {
+      name: "Weather App 2022",
+      description: "React JS-based weather application using OpenWeather API",
+      link: "https://kkammili-weather-app/",
     },
   ],
   github: "https://github.com/kkammili",

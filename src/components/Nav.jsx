@@ -35,7 +35,14 @@ export default function Nav() {
                         {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
                     </Button>
                     <Button className="rounded-full bg-neutral-900 text-white hover:bg-black dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100" asChild>
-                        <a href={resume.github} target="_blank" rel="noreferrer"><Download className="h-4 w-4 mr-2" />Download CV</a>
+                        <a
+                            href="https://docs.google.com/document/d/1K5vSy-bopRhGfPs1HDc47qKmaHMf__WO7iWTPIOHxPU/edit?tab=t.0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="download-btn"
+                        >
+                            Download CV
+                        </a>
                     </Button>
                 </div>
             </div>
