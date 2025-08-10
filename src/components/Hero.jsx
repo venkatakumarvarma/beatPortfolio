@@ -28,9 +28,10 @@ export default function Hero() {
                             <img
                                 src={hero}
                                 alt="Portrait"
-                                className="w-full h-[42vh] md:h-[520px] object-cover object-bottom"
-                                loading="eager"
+                                whileHover={{ y: -5, scale: 1.02 }}
+                                className="w-full h-[420px] md:h-[520px] object-cover object-[center_30%] md:object-[center_40%] rounded-[22px]"
                             />
+
                         </div>
                     </motion.div>
 
